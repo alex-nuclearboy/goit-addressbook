@@ -7,6 +7,7 @@ This repository contains the Address Book Module, a Python module with classes d
 - `Field`: The base class for entry fields, providing common logic for all fields.
 - `Name`: Derived from Field, used for storing a contact's name. It's a mandatory field.
 - `Phone`: Also derived from Field, handles phone number storage with format validation (10 digits).
+- `Birthday`: Another Field derivative, responsible for storing and validating a contact's birthday.
 - `Record`: Maintains information about a contact, including name and a list of phone numbers. Responsible for adding, deleting, and editing optional fields, while storing the mandatory Name field.
 - `AddressBook`: Derived from UserDict, it manages contact records. Includes logic for adding, searching, and deleting entries based on contact names.
 
@@ -24,6 +25,11 @@ This repository contains the Address Book Module, a Python module with classes d
 - *Delete Phone Numbers*: Remove specific phone numbers from a contact.
 - *Edit Phone Numbers*: Modify existing phone numbers.
 - *Find Phone Number*: Retrieve specific phone numbers associated with a contact.
+
+#### Birthday Class:
+
+- *Store Birthday*: Keep track of a contact's birthday.
+- *Validate Birthday Format*: Ensure that the birthday is in a valid format.
 
 ### Installation
 
